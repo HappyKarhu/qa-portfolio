@@ -13,7 +13,7 @@ Steps:
 1. Enter valid full name: Tester Volunteer
 2. Enter valid email: VolunteerTester1@test.com
 3. Enter strong password: Password123
-4. Upload valid avatar (jpg/png)
+4. Upload valid avatar (jpg/png/jpeg)
 5. Click Register button
 
 Expected Result:
