@@ -11,7 +11,7 @@ Unless stated otherwise, all steps assume the registration page is already open.
 ### 🟠 TC-1: Successful registration with valid data and avatar
 Steps:
 1. Enter valid full name: Tester Volunteer
-2. Enter valid email: VolunteerTester1@test.com
+2. Enter valid email: volunteertester1@test.com
 3. Enter strong password: Password123
 4. Upload valid avatar (jpeg,png,jpg,gif,webp)
 5. Click Register button
