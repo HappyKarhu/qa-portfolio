@@ -10,11 +10,12 @@ Unless stated otherwise, all steps assume the registration page is already open.
 ---
 ### 🟠 TC-1: Successful registration with valid data and avatar
 Steps:
-1. Enter valid full name: Tester Volunteer
-2. Enter valid email: volunteertester1@test.com
+1. Enter valid full name: Tester Volunteer 1
+2. Enter valid email: tester_volunteer1@test.com
 3. Enter strong password: Password123
-4. Upload valid avatar (jpeg,png,jpg,gif,webp)
-5. Click Register button
+4. Choose Register as Volunteer field
+5. Upload valid avatar (jpeg,png,jpg,gif,webp)
+6. Click Register button
 
 Expected Result:
 User account is created successfully.
@@ -23,8 +24,11 @@ Avatar is stored correctly and displayed in profile.
 ---
 ### 🟢 TC-2: Registration without avatar (default behavior)
 Steps:
-1. Fill all required fields except avatar
-2. Click Register button
+1. Enter valid full name: Tester Volunteer 2
+2. Enter valid email: tester_volunteer2@test.com
+3. Enter strong password: Password123
+4. Choose Register as Volunteer field
+5. Click Register button
 
 Expected Result:
 User is created successfully.
@@ -32,9 +36,12 @@ System assigns a default avatar automatically.
 ---
 ### 🟡 TC-3: Invalid avatar format upload
 Steps:
-1. Fill required fields
-2. Upload invalid file format (e.g. .txt, .pdf)
-3. Click Register button
+1. Enter valid full name: Invalid Tester
+2. Enter valid email: invalid_tester@test.com
+3. Enter strong password: Password123
+4. Choose Register as Volunteer field
+5. Upload invalid file format (e.g. .txt, .pdf)
+6. Click Register button
 
 Expected Result:
 System blocks upload.
