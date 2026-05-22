@@ -1,1 +1,46 @@
+# Bug: No Error Message Shown When Registering With Duplicate Email
 
+## Environment
+
+- **Application:** Volunteer Event Platform
+- **Module:** Registration / Authentication
+- **Framework:** Laravel 13
+- **Browser:** Chrome
+- **OS:** Windows 11
+
+---
+
+## Description
+
+When a user attempts to register using an email address that already exists in the system, the registration fails silently.
+
+The form resets, the password field is cleared, and no validation or error message is displayed to the user.
+
+This creates confusion because the user receives no indication why the registration failed.
+
+---
+
+## Type
+
+Bug
+
+---
+
+## Priority
+
+Medium / High
+
+---
+
+## Severity
+
+Major — user cannot understand why registration failed.
+
+---
+
+## Preconditions
+
+A user already exists with the following email:
+
+```text
+invalid_tester@test.com
