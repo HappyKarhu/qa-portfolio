@@ -78,7 +78,8 @@ System shows error:
 4. Click Register button
 
 ### Expected Result:
-System rejects password and shows validation message.
+System rejects password and shows validation message: 
+"The password field must be at least 8 characters.".
 
 ---
 
