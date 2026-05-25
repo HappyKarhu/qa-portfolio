@@ -3,7 +3,7 @@
 ## Feature: Organizer Registration & Authentication
 
 ---
-## 🟠 TC-1: Organizer dashboard access after registration
+## 🟠 TC-O1: Organizer dashboard access after registration
 
 ### Steps:
 1. From landing page go to Register
