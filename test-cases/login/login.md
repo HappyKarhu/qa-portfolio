@@ -3,7 +3,7 @@
 ## Feature: User Login
 
 ---
-## 🟠 TC-V1: Organizer dashboard access after registration
+## 🟠 TC-U1: User log in
 
 ### Steps:
 1. From landing page go to Login
