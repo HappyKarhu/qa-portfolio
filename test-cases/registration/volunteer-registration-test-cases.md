@@ -87,9 +87,10 @@ System rejects password and shows validation message:
 
 ### Steps:
 1. Submit form without filling any fields
+2. Click Register button
 
 ### Expected Result:
-Validation errors shown for all required fields.
+Validation messages are displayed for each required field (e.g., “This field is required”).
 
 ---
 
