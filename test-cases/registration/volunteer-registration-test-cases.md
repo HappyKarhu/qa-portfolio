@@ -114,4 +114,4 @@ System shows error: “Invalid email format”
 3. Click Register button
 
 ### Expected Result:
-System shows error: “Passwords do not match”
+System shows error: “The password field confirmation does not match.”
