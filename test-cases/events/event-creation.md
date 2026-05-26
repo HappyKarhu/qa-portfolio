@@ -40,4 +40,17 @@ Event status is set to Published
 
 ---
 
+### 🟡 TC-OE2: Create event without image
+
+### Steps:
+1. Enter all required fields
+2. Do not upload event image
+3. Click "Create event"
+
+### Expected Result:
+Event is created successfully
+Default event image is used.
+
+---
+
 
