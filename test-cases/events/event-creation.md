@@ -53,4 +53,16 @@ Default event image is used.
 
 ---
 
+### 🟢 TC-OE3 Create event with missing required fields
+
+### Steps:
+1. Leave the title empty
+2. Do not choose a date
+3. Click "Create event"
+
+### Expected result:
+Validation errors for each required field
+
+---
+
 
