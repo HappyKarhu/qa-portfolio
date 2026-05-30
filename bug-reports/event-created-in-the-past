@@ -1,0 +1,74 @@
+# Bug: Event Can Be Created with Start Date in the Past
+
+## Tracking Information
+
+- Jira Ticket: KAN-13
+- Status: In Progress
+- Priority: Medium
+
+---
+
+## Environment
+
+- Application: Volunteer Event Platform
+- Module: Event Creation
+- Framework: Laravel 13
+- Browser: Chrome
+- OS: Windows 11
+
+---
+
+## Description
+
+The Event Creation form allows organizers to create an event with a start date that is earlier than the current date.
+
+Past events can be created successfully without any validation error.
+
+---
+
+## Steps to Reproduce
+
+1. Log in as Organizer
+2. Open Create Event
+3. Fill all required fields
+4. Set Start Date to yesterday
+5. Set End Date to today
+6. Click Create Event
+
+---
+
+## Actual Result
+
+The event is created successfully and appears in the event list.
+
+---
+
+## Expected Result
+
+The system should prevent creation of events with a start date in the past.
+
+An error message should be displayed:
+
+"Start date must be today or a future date."
+
+---
+
+## Severity
+
+Medium
+
+---
+
+## Impact
+
+* Invalid events can be created
+* Outdated events may appear to volunteers
+* Event data becomes less reliable
+
+---
+
+## Recommendation
+
+Add validation to ensure that the Start Date cannot be earlier than the current date.
+
+Validation should be enforced on both the client side and server side.
