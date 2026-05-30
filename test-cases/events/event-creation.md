@@ -11,6 +11,7 @@ Unless stated otherwise, all steps assume the Create a new event page is already
 
 ## Simple events
 
+### When creating choose simple event.
 ---
 ### 🟠 TC-OE1: Create event creation with valid data and avatar
 
@@ -62,6 +63,17 @@ Default event image is used.
 
 ### Expected result:
 Validation errors for each required field
+
+---
+
+### 🔴 TC-O4: Capacity edge case
+### Steps:
+1. Enter all required fields (with today's date)
+2. Set capacity 0 or negative number
+3. Click "Create event"
+
+### Expected result:
+Error message "The capacity field must be at leats 1"
 
 ---
 
