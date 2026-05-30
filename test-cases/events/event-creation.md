@@ -104,6 +104,17 @@ Error message: "The end date field must be a date after or equal to start date."
 
 ---
 
+## 🟠 Missing start date
+
+### Steps:
+1. Fill all required fields except Start Date
+2. Click "Create event"
+
+### Expected result:
+Error message: "The start date field is required." is displayed and event is not created.
+
+---
+
 
 
 
