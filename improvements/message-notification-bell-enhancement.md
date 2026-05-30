@@ -1,5 +1,12 @@
 # Improvement: Show Unread Messages in Notification Bell
 
+## Tracking Information
+- Jira Ticket: KAN-7
+- Status: In Progress
+- Priority: Medium
+
+---
+
 ## Environment
 - Application: Volunteer Event Platform
 - Module: Messaging / Notifications
