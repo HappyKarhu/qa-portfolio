@@ -100,7 +100,7 @@ Error message: Start date must be today or a future date.
 4. Click "Create event"
 
 ### Expected result:
-Error message: "nd date must be after or equal to start date." is displayed and event is not created.
+Error message: "The end date field must be a date after or equal to start date." is displayed and event is not created.
 
 ---
 
