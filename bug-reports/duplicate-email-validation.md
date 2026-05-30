@@ -1,5 +1,12 @@
 # Bug: Duplicate validation error shown for email field
 
+## Tracking Information
+- Jira Ticket: KAN-5
+- Status: Done
+- Priority: Medium
+
+---
+
 ## Environment
 - Application: Volunteer Event Platform
 - Framework: Laravel 13
