@@ -13,7 +13,7 @@ Unless stated otherwise, all steps assume the Create a new event page is already
 
 ### When creating choose simple event.
 ---
-### 🟠 TC-OE1: Create event creation with valid data and avatar
+## 🟠 TC-OE1: Create event creation with valid data and avatar
 
 ### Steps:
 1. Enter valid Event Name
@@ -41,7 +41,7 @@ Event status is set to Published
 
 ---
 
-### 🟡 TC-OE2: Create event without image
+## 🟡 TC-OE2: Create event without image
 
 ### Steps:
 1. Enter all required fields
@@ -54,7 +54,7 @@ Default event image is used.
 
 ---
 
-### 🟢 TC-OE3 Create event with missing required fields
+## 🟢 TC-OE3 Create event with missing required fields
 
 ### Steps:
 1. Leave the title empty
@@ -66,7 +66,8 @@ Validation errors for each required field
 
 ---
 
-### 🔴 TC-O4: Capacity edge case
+## 🔴 TC-OE4: Capacity unvalid
+
 ### Steps:
 1. Enter all required fields (with today's date)
 2. Set capacity 0 or negative number
@@ -76,5 +77,19 @@ Validation errors for each required field
 Error message "The capacity field must be at leats 1"
 
 ---
+
+## 🟣 TC-OE5: Start date in the past
+
+### Steps:
+1. Enter all required fields
+2. Set start Date to yesterday
+3. Set the end Date to today
+4. Click "Create event"
+
+### Expected result:
+Error message: Start date must be today or a future date.
+
+
+
 
 
