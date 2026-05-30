@@ -115,7 +115,16 @@ Error message: "The start date field is required." is displayed and event is not
 
 ---
 
+## 🟡 TC-OE8: Missing end date
 
+### Steps:
+1. Fill all required fields except End Date
+2. Click "Create event"
+
+### Expected result:
+Error message: "The end date field is required." is displayed and event is not created.
+
+---
 
 
 
