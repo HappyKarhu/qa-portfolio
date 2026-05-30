@@ -89,6 +89,23 @@ Error message "The capacity field must be at leats 1"
 ### Expected result:
 Error message: Start date must be today or a future date.
 
+---
+
+## 🟣 TC-OE6: End date before start date
+
+### Steps:
+1. Enter all required fields
+2. Set start Date to tomorrow
+3. Set the end Date to today
+4. Click "Create event"
+
+### Expected result:
+Error message: "nd date must be after or equal to start date." is displayed and event is not created.
+
+---
+
+
+
 
 
 
